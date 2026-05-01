@@ -36,13 +36,13 @@ export default function About() {
 
         <div className="about-gallery">
           <div className="gallery-item">
-            <img src="/images/congresso-1.jpeg" alt="Dra. Elis no Congress on Brain, Behavior and Emotions 2025" />
+            <img src={`${import.meta.env.BASE_URL}images/congresso-1.jpeg`} alt="Dra. Elis no Congress on Brain, Behavior and Emotions 2025" />
           </div>
           <div className="gallery-item">
-            <img src="/images/congresso-2.jpeg" alt="Dra. Elis na XVII Jornada ABP Sudeste de Psiquiatria" />
+            <img src={`${import.meta.env.BASE_URL}images/congresso-2.jpeg`} alt="Dra. Elis na XVII Jornada ABP Sudeste de Psiquiatria" />
           </div>
           <div className="gallery-item">
-            <img src="/images/congresso-3.jpeg" alt="Dra. Elis no Congress on Brain, Behavior and Emotions 2025" />
+            <img src={`${import.meta.env.BASE_URL}images/congresso-3.jpeg`} alt="Dra. Elis no Congress on Brain, Behavior and Emotions 2025" />
           </div>
         </div>
         <p className="gallery-caption">Participação em congressos e jornadas de psiquiatria</p>

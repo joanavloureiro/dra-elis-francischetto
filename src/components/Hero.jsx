@@ -31,7 +31,7 @@ export default function Hero() {
         </div>
         <div className="hero-image-wrapper">
           <div className="hero-image-frame">
-            <img src="/images/foto-principal.jpeg" alt="Dra. Elis Francischetto - Médica Psiquiatra" />
+            <img src={`${import.meta.env.BASE_URL}images/foto-principal.jpeg`} alt="Dra. Elis Francischetto - Médica Psiquiatra" />
           </div>
         </div>
       </div>
